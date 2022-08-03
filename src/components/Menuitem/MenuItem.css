@@ -1,0 +1,45 @@
+.app__menuItem{
+    width:90%;
+    margin:1rem 1rem;
+    display:flex;
+    flex-direction:column;
+}
+
+.app__menuItem-head{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.app__menuItem-tags{
+    width:100%;
+    margin-top: 0.25rem;
+}
+
+.app__menuItem-tags p{
+    font-size:1rem;
+}
+
+.app__menuItem-name{
+    flex:1;
+}
+
+.app__menuItem-dash{
+    width:90px;
+    height:1.2px;
+    background:var(--color-golden);
+    margin:0 1rem;
+
+}
+
+.app__menuItem-price{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+@media screen and (max-width:1200px) {
+    .app__menuItem-dash{
+        width:20%;
+}
+}
